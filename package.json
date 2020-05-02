@@ -1,0 +1,16 @@
+{
+  "name": "techno-boto-twitch",
+  "version": "0.0.0",
+  "description": "A Twitch Moderator Bot",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Techno Tim",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "tmi.js": "^1.5.0"
+  }
+}
