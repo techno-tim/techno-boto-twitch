@@ -81,7 +81,7 @@ client.on('message', (channel, userstate, message, self) => {
   }
 
 	if(message.toLowerCase() === '!hello') {
-    hello()
+    hello(channel, userstate)
     return
   }
 
@@ -163,7 +163,7 @@ function subGiftHandler(channel, username, streakMonths, recipient, methods, use
 
 // commands
 
-function hello () {
+function hello (channel, userstate) {
   client.say(channel, `@${userstate.username}, heya!`)
 }
 
