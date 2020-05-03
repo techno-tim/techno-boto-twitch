@@ -76,7 +76,7 @@ client.on('message', (channel, userstate, message, self) => {
   }
 
   if (userstate.username === BOT_USERNAME) {
-    console.log(`Not check bot's messages.`)
+    console.log(`Not checking bot's messages.`)
     return
   }
 

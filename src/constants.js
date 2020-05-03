@@ -1,6 +1,6 @@
-export const CHANNEL_NAME = '#youChannelName';
-export const OAUTH_TOKEN = 'oauth:youToken';
-export const BOT_USERNAME = 'youChannelName';
+export const CHANNEL_NAME = '#yourChannelName';
+export const OAUTH_TOKEN = 'oauth:yourToken';
+export const BOT_USERNAME = 'yourChannelName';
 export const BLOCKED_WORDS = [
   'cats',
   'dogs',
