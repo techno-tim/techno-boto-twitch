@@ -54,8 +54,6 @@ client.on('hosting', (channel, target, viewers) => {
   onHostingHandler(channel, target, viewers)
 })
 
-client.on('ping', onPingHandler)
-
 client.on('reconnect', () => {
   reconnectHandler()
 })
@@ -134,10 +132,6 @@ function onHostingHandler(channel, target, viewers) {
   client.say(channel,
     `We are now hosting ${target} with ${viewers} viewers!`
   )
-}
-
-function onPingHandler () {
-  client.raw('PONG :tmi.twitch.tv')
 }
 
 function reconnectHandler () {
