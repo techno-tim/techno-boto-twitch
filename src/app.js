@@ -139,16 +139,16 @@ function reconnectHandler () {
 }
 
 function resubHandler(channel, username, months, message, userstate, methods) {
-  const cumulativeMonths = ~~userstate['msg-param-cumulative-months']
+  const cumulativeMonths = userstate['msg-param-cumulative-months']
   client.say(channel,
     `Thank you @${username} for the ${cumulativeMonths} sub!`
   )
 }
 
 function subGiftHandler(channel, username, streakMonths, recipient, methods, userstate) {
-  const senderCount = ~~userstate['msg-param-sender-count']
+  const senderCount = userstate["msg-param-sender-count"];
   client.say(channel,
-    `Thank you @${username} for gifting a sub to ${userstate['msg-param-recipient-display-name']}.`
+    `Thank you @${username} for gifting a sub to ${recipient}}.`
   )
   client.say(channel,
     `${username} has gifted ${senderCount} subs!`
