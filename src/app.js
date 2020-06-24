@@ -146,7 +146,7 @@ function resubHandler(channel, username, months, message, userstate, methods) {
 }
 
 function subGiftHandler(channel, username, streakMonths, recipient, methods, userstate) {
-  const senderCount = userstate["msg-param-sender-count"];
+  const senderCount =  ~~userstate["msg-param-sender-count"];
   client.say(channel,
     `Thank you @${username} for gifting a sub to ${recipient}}.`
   )
