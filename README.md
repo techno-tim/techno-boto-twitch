@@ -16,7 +16,8 @@ After authorizing, you will be rdirected to `YOUR_HOST` and the access token wil
 
 Replace `CLIENT_ID` and `YOUR_HOST` with the values for your newly created Twitch application from the dev portal.
 
-
 It was created by TechnoTim:
 
-[TechnoTim](https://www.youtube.com/TechnoTimLive)
+[Techno Tim on YouTube](https://www.youtube.com/TechnoTimLive)
+
+[Techno Tim on Twitch](https://www.twitch.tv/technotim)
