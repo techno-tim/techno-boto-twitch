@@ -23,11 +23,11 @@ client.connect()
 
 // events
 client.on('disconnected', (reason) => {
-  onDisconnectedHandLer(reason)
+  onDisconnectedHandler(reason)
 })
 
 client.on('connected', (address, port) => {
-  onConnectedHandLer(address, port)
+  onConnectedHandler(address, port)
 })
 
 client.on('hosted', (channel, username, viewers, autohost) => {
@@ -83,18 +83,18 @@ client.on('message', (channel, userstate, message, self) => {
     return
   }
 
-  onMessageHandLer(channel, userstate, message, self)
+  onMessageHandler(channel, userstate, message, self)
 })
 
-function onMessageHandLer (channel, userstate, message, self) {
+function onMessageHandler (channel, userstate, message, self) {
   checkTwitchChat(userstate, message, channel)
 }
 
-function onDisconnectedHandLer(reason) {
+function onDisconnectedHandler(reason) {
   console.log(`Disconnected: ${reason}`)
 }
 
-function onConnectedHandLer(address, port) {
+function onConnectedHandler(address, port) {
   console.log(`Connected: ${address}:${port}`)
 }
 
