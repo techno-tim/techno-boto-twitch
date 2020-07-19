@@ -146,13 +146,17 @@ function resubHandler(channel, username, months, message, userstate, methods) {
 }
 
 function subGiftHandler(channel, username, streakMonths, recipient, methods, userstate) {
-  const senderCount =  ~~userstate["msg-param-sender-count"];
+
   client.say(channel,
     `Thank you @${username} for gifting a sub to ${recipient}}.`
   )
-  client.say(channel,
-    `${username} has gifted ${senderCount} subs!`
-  )
+
+  // this comes back as a boolean from twitch, disabling for now
+  // "msg-param-sender-count": false
+  // const senderCount =  ~~userstate["msg-param-sender-count"];
+  // client.say(channel,
+  //   `${username} has gifted ${senderCount} subs!`
+  // )
 }
 
 // commands
