@@ -4,6 +4,8 @@ This is a simple moderation bot that can be added to your own Twitch channel.
 
 For instructions, please see [https://youtu.be/7uSjKbAUHXg](https://youtu.be/7uSjKbAUHXg)
 
+Don't forget to ⭐ this repo and fork it too! 👆
+
 ## Getting started
 
 If you need help setting up your machine for JavaScript development, see https://www.youtube.com/watch?v=kL8iGErULiw
