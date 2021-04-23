@@ -7,20 +7,20 @@ esm@^3.2.25:
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
   integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
-node-fetch@2.6.1:
+node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 tmi.js@^1.5.0:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/tmi.js/-/tmi.js-1.7.2.tgz#12e8235b9a0c4b38801aa5fa6b2ee881b6fc29fd"
-  integrity sha512-ewht4Z0YcnOOK6/FVpYQiPJkKz02iwGV8132fR2dBLU7i7dCC+dOFXwH7O9fo1Ka9C+MQoPW8PiNlHUWxs4iIg==
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/tmi.js/-/tmi.js-1.8.3.tgz#1a4e30c845442505e6f673d0da8740bbd39c4ed6"
+  integrity sha512-1YAO3hwnkpAbUfVlpxcqOHP4Nun/+TqxWE/e/ZKMB6p40ZKczhI03oZW2Qx3pppqWjXz5kSjHdT/vTTfi2gCGQ==
   dependencies:
-    node-fetch "2.6.1"
-    ws "7.4.3"
+    node-fetch "^2.6.1"
+    ws "^7.4.3"
 
-ws@7.4.3:
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
-  integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
+ws@^7.4.3:
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
+  integrity sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
