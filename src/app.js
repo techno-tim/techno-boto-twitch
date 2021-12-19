@@ -1,5 +1,6 @@
 import tmi from 'tmi.js'
-import { BOT_USERNAME , OAUTH_TOKEN, CHANNEL_NAME, BLOCKED_WORDS } from './constants'
+import { BOT_USERNAME , OAUTH_TOKEN, CHANNEL_NAME } from './constants'
+import { BLOCKED_WORDS } from './banned_words'
 
 const options = {
 	options: { debug: true },
